@@ -1,4 +1,7 @@
 
+// paamayim nekudotayim: 
+// http://stackoverflow.com/questions/592322/php-expects-t-paamayim-nekudotayim
+
 lucky :: (Integral a) => a -> String
 lucky 7 = "Lucky number seven!"
 lucky x = "Sorry, you are aout of luck, pal"
