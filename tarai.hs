@@ -9,7 +9,7 @@ See:
  https://en.wikipedia.org/wiki/Tak_(function)
 -}
 
-tarai :: Int -> Int -> Int -> Int
+tarai :: Integer -> Integer -> Integer -> Integer
 tarai x y z
   | y >= x    = y
   | otherwise = tarai (tarai (x-1) y z) (tarai (y-1) z x) (tarai (z-1) x y)
